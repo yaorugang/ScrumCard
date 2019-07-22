@@ -8,6 +8,12 @@
         <item name="colorPrimaryDark">@color/darkBlue</item>
         <item name="colorAccent">#D81B60</item>
 
+        <item name="actionBarStyle">@style/TransparentActionBarStyle</item>
+    </style>
+
+
+    <style name="TransparentActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@android:color/transparent</item>
     </style>
 
 </resources>
